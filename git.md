@@ -55,3 +55,11 @@ Get list of commits with signatures:
 `git log --show-signature`  
 or:  
 `git log --pretty="format:%h %G? %aN %s"`
+
+## remote
+
+```bash
+git remote add origin https://github.com/dj-mc/ket.git
+git remote -v
+git push --set-upstream origin master
+```
