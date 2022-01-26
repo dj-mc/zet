@@ -6,13 +6,24 @@ Unstage specific file:
 `git restore --staged <file>`  
 Unstage everything but keep changes: `git reset`
 
+## discard uncommitted
+
+```bash
+git stash
+git stash drop
+```
+
+## undo last commit
+
+`git reset HEAD~`
+
+## filter-repo
+
 ---
 
 _DO NOT_ carelessly use commands `rebase` or `filter-repo`
 
 ---
-
-## filter-repo
 
 Only filter-repo on a mirror clone:  
 `git clone --mirror git@github.com:user/repo.git`

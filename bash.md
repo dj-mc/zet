@@ -8,9 +8,11 @@
 `help %builtin/keyword%`  
 `apropos %something%`
 
-```bash
-grep "something" < ~/input.txt > ~/output.txt
-```
+## redirections
+
+`grep "something" < ~/input.txt > ~/output.txt`
+
+## arguments
 
 `$#` number of arguments
 `$@` arguments as list of strings
