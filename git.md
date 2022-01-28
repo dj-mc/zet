@@ -1,5 +1,9 @@
 # git
 
+## clean
+
+Remove untracked files: `git clean -d -n`
+
 ## unstage
 
 Unstage specific file:  
@@ -16,6 +20,14 @@ git stash drop
 ## undo last commit
 
 `git reset HEAD~`
+
+## stash local, pull remote, unstash local (pop)
+
+```bash
+git stash
+git pull
+git stash pop
+```
 
 ## filter-repo
 
