@@ -1,5 +1,10 @@
 # git
 
+`git branch -r`
+`git fetch --prune`
+`git clone --mirror` vs. `git clone --bare`
+`git fetch` vs. `git pull`
+
 ## clean
 
 Remove untracked files: `git clean -d -n`
@@ -19,7 +24,18 @@ git stash drop
 
 ## undo last commit
 
-`git reset HEAD~`
+`git reset HEAD~`  
+Split the initial commit (while rebasing), but there is no HEAD.
+Instead: `git update-ref -d HEAD` then `git rm --cached -r .`
+``
+
+## amend last commit
+
+Edit commit message + content:  
+*Stage new changes before amending*  
+`git commit --amend`  
+If you only need to edit commit content:  
+`git commit --amend --no-edit`
 
 ## stash local, pull remote, unstash local (pop)
 
@@ -30,12 +46,6 @@ git stash pop
 ```
 
 ## filter-repo
-
----
-
-_DO NOT_ carelessly use commands `rebase` or `filter-repo`
-
----
 
 Only filter-repo on a mirror clone:  
 `git clone --mirror git@github.com:user/repo.git`
@@ -58,25 +68,28 @@ Content of .mailmap:
 
 ## rebase
 
-Only rebase on a clone of said mirror: `git clone mirrored_repo.git`  
-Edit a particular commit: `git rebase -i commit_after_particular`  
-or:  
-`git rebase -i 664724d5119c302567082110d201d06b20f31099`
+Edit a particular commit: `git rebase -i commit_AFTER_particular`  
+e.g. `git rebase -i 664724d5119c302567082110d201d06b20f31099`
 
-Edit a list of commits:  
+Rebase a range:  
 `git rebase -i HEAD~42`  
-or:  
+Rebase all commits:  
 `git rebase -i --root`
 
-## sign your commits
+## gpg signature
 
-Sign your commit: `git commit -S -m "commit message"`  
-Easy way to sign all previous commits:  
+Sign a commit:  
+`git commit -S -m "commit message"`  
+Sign all commits:  
 `git rebase --exec 'git commit --amend --no-edit -n -S' -i --root`
 
-Get list of commits with signatures:  
+## git log
+
+Get list of last 3 commits:  
+`git log --pretty=format:"%h %s" HEAD~3..HEAD`  
+Get list of commits and their signatures:  
 `git log --show-signature`  
-or:  
+Signatures prettified (G/E/N):  
 `git log --pretty="format:%h %G? %aN %s"`
 
 ## remote

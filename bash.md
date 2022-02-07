@@ -10,7 +10,9 @@
 
 ## redirections
 
-`grep "something" < ~/input.txt > ~/output.txt`
+```bash
+grep "something" < ~/input.txt > ~/output.txt
+```
 
 ## arguments
 
