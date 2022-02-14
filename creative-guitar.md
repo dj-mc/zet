@@ -88,6 +88,9 @@ todo
 - *reliance* on transcriptions fosters *laziness*
 - don't worship your guitar heroes (for too long)
 - figure out what's good about a guitarist's techinque then **move on**
+
+## health
+
 - your instruments are vulnerable to temperature/humidity change
 - warm up your hands and stretch your wrists/forearms before playing
 - practice good posture while playing to avoid injury
