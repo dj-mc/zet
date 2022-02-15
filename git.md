@@ -5,6 +5,12 @@
 `git clone --mirror` vs. `git clone --bare`
 `git fetch` vs. `git pull`
 
+## TODO
+
+- .git repo dir structure
+- manage caches, backups, etc. of branches and local changes
+- add an empty commit at the beginning of a repo's history
+
 ## clean
 
 Remove untracked files: `git clean -d -n`
