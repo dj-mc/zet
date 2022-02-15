@@ -1,8 +1,9 @@
 # creative guitar
 
 Notes on Guthrie Govan's two volumes on guitar technique.  
-<https://www.halleonard.com/product/14007762/creative-guitar-1>  
-<https://www.halleonard.com/product/14007763/creative-guitar-2>  
+Buy here:
+[Creative Guitar 1](https://www.halleonard.com/product/14007762/creative-guitar-1) and
+[Creative Guitar 2](https://www.halleonard.com/product/14007763/creative-guitar-2)  
 I will provide references to other resources as I learn them.
 
 ## technique
@@ -97,6 +98,19 @@ todo
 - playing your instrument should feel effortless and natural
 - ensure your spine and wrists are as straight as possible
 - you probably play with too much tension in your hands
+
+## rhythm
+
+- (1 &) (2 &) (3 &) (4 &)
+- eighth note in a bar of 4/4 time
+- jazz swing eighth notes
+- upbeats (&'s) are closer to the downbeat
+- eighth note triplets
+- count 1st and 3rd subdivisions
+
+Tom Lippincott's  
+[Rhythm is Everything 1](https://www.youtube.com/watch?v=tJdDZt0lQhI)  
+[Rhythm is Everything 2](https://www.youtube.com/watch?v=ymgzwsDyXe8)
 
 ## tone
 
