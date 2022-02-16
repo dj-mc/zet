@@ -40,7 +40,7 @@ I will provide references to other resources as I learn them.
 ---
 
 - build a lick library
-- keep a permanant record of everything you learn
+- keep a permanent record of everything you learn
 - go for individual licks, not entire tracks
 - get the context (which ideas using which chords)
 - start with the overall structure of a piece
@@ -59,6 +59,8 @@ I will provide references to other resources as I learn them.
 - a smartphone or mono-tape recorder is good enough
 - or use a Lexicon JamMan, Boss Loop Station, or a Boomerang
 - or use a Line6 Delay Modeler or other delay effects
+- (humble) Fender Supro amp while studio recording
+- fancy gear is not *really* necessary for most purposes
 
 ## build a piece of music
 
@@ -88,7 +90,7 @@ todo
 - learn from everything you hear; avoid tunnel vision
 - *reliance* on transcriptions fosters *laziness*
 - don't worship your guitar heroes (for too long)
-- figure out what's good about a guitarist's techinque then **move on**
+- figure out what's good about a guitarist's technique then **move on**
 
 ## health
 
