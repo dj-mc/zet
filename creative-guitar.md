@@ -50,8 +50,8 @@ Tom Lippincott's
 - melodic minor mode substitutions
 - cycle of dominant substitutions
 - 3rds and flat-9ths on dominant chords
-- chromatically descending minor seventh chords
-- augmented major seven and minor major seven chords (implying melodic minor)
+- chromatically descending minor-7th chords
+- augmented major-7 and minor/major-7th chords (implies melodic minor)
 - guide tones, approach notes, and target notes
 - the big three progressions
 - use diminished scaled for both diminished and dominant sounds
