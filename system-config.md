@@ -14,9 +14,11 @@ sudo etckeeper commit "Added changes"
 
 ## cron
 
+todo
+
 ## systemd
 
-...
+todo
 
 ## gpg
 
@@ -46,11 +48,15 @@ Import someone else's
 
 ## ssh
 
-`ls -al ~/.ssh`  
-`cat ~/.ssh/id_ed25519`
-`eval "$(ssh-agent -s)"`  
+```bash
+ls -al ~/.ssh
+cat ~/.ssh/id_ed25519
+eval "$(ssh-agent -s)"
+```
+
 If needed: `exec ssh-agent bash`  
-`ssh-add ~/.ssh/id_ed25519`
+Add your key: `ssh-add ~/.ssh/id_ed25519`  
+or: `ssh-add -k ~/.ssh/id_ed25519`  
 
 <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh>
 

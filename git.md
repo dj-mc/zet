@@ -33,7 +33,6 @@ git stash drop
 `git reset HEAD~`  
 Split the initial commit (while rebasing), but there is no HEAD.
 Instead: `git update-ref -d HEAD` then `git rm --cached -r .`
-``
 
 ## amend last commit
 
