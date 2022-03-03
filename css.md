@@ -1,6 +1,6 @@
 # css
 
-## TODO
+## todo
 
 - transform
 - transition

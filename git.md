@@ -1,11 +1,11 @@
 # git
 
-`git branch -r`
-`git fetch --prune`
-`git clone --mirror` vs. `git clone --bare`
-`git fetch` vs. `git pull`
+## todo
 
-## TODO
+- `git branch -r`  
+- `git fetch --prune`  
+- `git clone --mirror` vs. `git clone --bare`  
+- `git fetch` vs. `git pull`
 
 - .git repo dir structure
 - manage caches, backups, etc. of branches and local changes
@@ -49,6 +49,18 @@ git stash
 git pull
 git stash pop
 ```
+
+## branching
+
+New branch:  
+`git checkout -b branch_name`  
+
+New branch + current changes:  
+`git checkout -c branch_name`
+
+Delete a branch:  
+Remote: `git push -d origin branch_name`  
+Local: `git branch -d branch_name`
 
 ## filter-repo
 

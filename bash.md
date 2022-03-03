@@ -1,5 +1,12 @@
 # bash
 
+## todo
+
+`curl -O <url>`  
+`curl -o- <url>`  
+`wget -P <url>`  
+`tar -xvjf <file>`
+
 ## get help
 
 `man %command%`  
@@ -16,8 +23,8 @@ grep "something" < ~/input.txt > ~/output.txt
 
 ## arguments
 
-`$#` number of arguments
-`$@` arguments as list of strings
+`$#` number of arguments  
+`$@` arguments as list of strings  
 `$*` arguments as single string
 
 ```bash
