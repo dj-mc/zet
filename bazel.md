@@ -1,17 +1,17 @@
 # bazel
 
-## Define WORKSPACE file
+## define WORKSPACE file
 
 `mkdir root-dir/`  
 `touch root-dir/WORKSPACE` &larr; empty
 
-## Define package directory
+## define package directory
 
 `mkdir root-dir/pkg-dir/`  
 `touch root-dir/pkg-dir/src.cc`  
 `touch root-dir/pkg-dir/BUILD`
 
-## Content of BUILD file
+## content of BUILD file
 
 ```starlark
 load("@rules_cc//cc:defs.bzl", "cc_binary")
@@ -22,24 +22,24 @@ cc_binary(
 )
 ```
 
-## Build
+## build
 
 `bazel build //pkg-dir:pkg-name`
 
-## Run build
+## run build
 
 `bazel-bin/pkg-dir/pkg-name`
 
-## Dependency graph
+## dependency graph
 
 `bazel query --notool_deps --noimplicit_deps "deps(//pkg-dir:pkg-name)" --output graph`
 
-## Add a dependency
+## add a dependency
 
 `touch root-dir/pkg-dir/lib-src.cc`  
 `touch root-dir/pkg-dir/lib.hdr.h`
 
-## Update BUILD file
+## update BUILD file
 
 ```starlark
 load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
@@ -59,14 +59,14 @@ cc_binary(
 )
 ```
 
-## Add another package
+## add another package
 
 `mkdir root-dir/pkg-dir_2/`  
 `touch root-dir/pkg-dir_2/other-src.cc`  
 `touch root-dir/pkg-dir_2/other-hdr.h`  
 `touch root-dir/pkg-dir_2/BUILD` &larr; new BUILD file
 
-## Content of _new_ BUILD file
+## content of _new_ BUILD file
 
 ```starlark
 load("@rules_cc//cc:defs.bzl", "cc_library")
@@ -79,7 +79,7 @@ cc_library(
 )
 ```
 
-## Update _original_ BUILD file
+## update _original_ BUILD file
 
 Content of `root-dir/pkg-dir/BUILD`
 
