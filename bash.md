@@ -1,12 +1,5 @@
 # bash
 
-## todo
-
-`curl -O <url>`  
-`curl -o- <url>`  
-`wget -P <url>`  
-`tar -xvjf <file>`
-
 ## get help
 
 `man %command%`  
@@ -33,14 +26,16 @@ for a in "$@"; do some_thing "$a"; done
 
 ## arrays
 
-`arr=()`: empty array  
-`arr=(1 2 3)`: init array  
-`${arr[2]}`: third element  
-`${arr[@]}`: all elements  
-`${!arr[@]}`: array indices  
-`${#arr[@]}`: array size  
-`arr[0]=3`: to 1st element  
-`arr+=(4)`: append values  
-`str=$(ls)`: output to string  
-`arr=( $(ls) )`: output to array  
-`${arr[@]:i:n}`: n elements from index i  
+```bash
+arr=() # empty array  
+arr=(1 2 3) # init array  
+${arr[2]} # third element  
+${arr[@]} # all elements  
+${!arr[@]} # array indices  
+${#arr[@]} # array size  
+arr[0]=3 # to 1st element  
+arr+=(4) # append values  
+str=$(ls) # output to string  
+arr=( $(ls) ) # output to array  
+${arr[@]:i:n} # n elements from index i  
+```
