@@ -8,8 +8,6 @@ I will provide references to other resources as I learn them.
 
 ## technique
 
----
-
 - legato + tapping
 - alternate picking
 - double thumb + tremolo
@@ -18,8 +16,6 @@ I will provide references to other resources as I learn them.
 - harp harmonics
 
 ## rhythm
-
----
 
 Tom Lippincott's  
 [Rhythm is Everything 1](https://www.youtube.com/watch?v=tJdDZt0lQhI)  
@@ -33,8 +29,6 @@ Tom Lippincott's
 - count 1st and 3rd subdivisions
 
 ## progressions
-
----
 
 - 12-bar blues
 - 32-bar rhythm changes (jazz)
@@ -59,8 +53,6 @@ Tom Lippincott's
 
 ## tone
 
----
-
 - your tone is just as important as your technique
 - your tone will sound different in your bedroom vs. a live gig
 - your mid-frequencies may need a boost while playing live
@@ -69,8 +61,6 @@ Tom Lippincott's
 
 ## ear training
 
----
-
 - understand what you hear
 - replicate it on your instrument
 - work out solos the hard way
@@ -78,8 +68,6 @@ Tom Lippincott's
 - practice transcribing
 
 ## transcribing
-
----
 
 - build a lick library
 - keep a permanent record of everything you learn
@@ -93,8 +81,6 @@ Tom Lippincott's
 
 ## record yourself
 
----
-
 - monitor long-term progress
 - make an honest, objective appraisal of strong and weak points
 - make a backing track to practice new progressions or scales
@@ -106,8 +92,6 @@ Tom Lippincott's
 
 ## build a piece of music
 
----
-
 - write a full tune, not 20 unrelated progressions
 - observe how a piece of music's structure is put together
 - hint: repetition, repetition, repetition, surprise
@@ -116,17 +100,11 @@ Tom Lippincott's
 
 todo
 
----
-
 ## harmonic analysis
 
 todo
 
----
-
 ## fair warnings
-
----
 
 - don't shun forms of music through prejudice
 - learn from everything you hear; avoid tunnel vision
@@ -147,13 +125,9 @@ todo
 
 Semi-organized notes on musical references I found in Govan's books, or other sources.
 
----
-
 ### gear
 
 todo
-
----
 
 ### artists, composers, albums, etc
 
